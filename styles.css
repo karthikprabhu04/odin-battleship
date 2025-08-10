@@ -5,3 +5,15 @@ body {
 .container {
   display: flex;
 }
+
+#grid1, #grid2 {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 2px;
+  margin: 16px;
+}
+
+.coordinate {
+  width: 40px;
+  height: 40px;
+}
